@@ -2,33 +2,85 @@
  * Personal Profile CSS
  **/
 
-* {
-  box-sizing: border-box;
-  text-align: center;
-}
-
 body {
-	font-size: 24px;
+	font-size: 24px;	
+	/*background-image: url("assets/images/circles-light.png");*/
+	background-color: lightblue;
 }
 
-header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #77777;
-  background: #4aaaa5;
-  width: 200px;
-}
-
-section {
-	padding: 20px;
-	margin-bottom: 20px;
-}
-
-#about {
+#name {
+	background-color: #4aaaa5;
+	color:white;
+	height: 75px;
+	margin-left: 100px;
+	width: 225px;
 	float:left;
-	background: #666;
-	width: 33%;
-	color: white;
+	padding-top: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+
+#navbar {
+	background: lightgray;
+	height: 75px;
+	width: 670px;
+	float:left;
+	padding-top: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li {
+
+    float: right;
+    width: 100px;
+    background-color: lightgray;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+}
+
+#mainSection {
+	width: 500px;
+	padding-top: 50px;	
+	margin-left: 100px;
+
+	border: 10px;
+}
+
+#aboutMe {
+	float:left;
+}
+
+#connectWithMe {
+	background-color: white;
+	border:10px black;
+	width: 270px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	height: 150px;
+}
+
+
+
+#profilePic {
+	float:left;
+	margin-right: 20px;
+}
+
+.clearfix {
+	clear:both !important;
+	display: block;
 }
 
 #portfolio {
@@ -39,22 +91,9 @@ section {
 }
 
 #contact {
-	float:left;
 	background: #666;
 	color: white;
 	width: 33.33%;
-}
-
-#full {
-    /*clear: both;*/
-	background: #eee;
-	overflow: auto;
-}
-
-#division {
-	background: #6ea3da;
-	padding: 20px;
-	margin-top: 20px;
 }
 
 aside {
@@ -70,4 +109,8 @@ aside {
 footer {
 	padding: 20px;
 	background: #ccc;
+	/*float:bottom;*/
+	/*position:fixed bottom;*/
+	text-align: center;
+	width: 960px;
 }

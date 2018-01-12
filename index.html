@@ -10,44 +10,56 @@
 </head>
 
 <body>
-  <div id=header>
-    <header>
-      Robert P Gerboth
-    </header>
+  <!-- <div class="container"> -->
+    <!-- <div id=header> -->
+      <section id="name">
+            Robert P Gerboth
+      </section>
 
-    <section id=navbar>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>     
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </section>
-  </div>
+      <section id="navbar">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>     
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
 
-  <div id="mainSection">
-    <section id="aboutme">
-      <img src="assets/images/ProfilePictureJan2018.jpg" alt="Profile Picture" style="width:150px;height:200px">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo gravida tortor, convallis suscipit neque dapibus imperdiet. Ut pellentesque orci sapien, nec sagittis nulla dignissim vel. Maecenas viverra elementum augue, eu vehicula nisi pretium vitae. 
-        <br>
-        Quisque at maximus augue. Duis cursus tellus pharetra libero vulputate porta. Vivamus suscipit enim in purus vestibulum, eu tincidunt magna condimentum. Vivamus quis felis sed tellus efficitur dictum. Sed eget leo nec orci dapibus tristique.
-      </p>
-    </section>
-    
-    <section id="connectWithMe">
-      Connect With Me
-      <div id=connectIcons>
-          <img src="assets/images/if_github_square_black_107109.png" alt="Github" style="width:90px; height:90px;">
+    <!-- </div> -->
 
-          <img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn" style="width:90px; height:90px;">
+    <div id="mainSection" class="clearfix">
 
-          <img src="assets/images/if_overflow_334695.png" alt="Stack Overflow" style="width:90px; height:90px;">
-      </div>
-    </section>
-  </div>
+      <h2>About Me</h2>
 
+      <section id="aboutMe">
+        <img id="profilePic" src="assets/images/ProfilePictureJan2018.jpg" alt="Profile Picture" style="width:150px;height:200px">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo gravida tortor, convallis suscipit neque dapibus imperdiet. Ut pellentesque orci sapien, nec sagittis nulla dignissim vel. Maecenas viverra elementum augue, eu vehicula nisi pretium vitae. 
+          <br>
+          Quisque at maximus augue. Duis cursus tellus pharetra libero vulputate porta. Vivamus suscipit enim in purus vestibulum, eu tincidunt magna condimentum. Vivamus quis felis sed tellus efficitur dictum. Sed eget leo nec orci dapibus tristique.
+        </p>
+      </section>
+    </div>
+
+    <div id="connectWithMe">
+
+        <h3>Connect With Me</h3>
+        
+        <div id=connectIcons>
+          <a class="socialIcon" href="https://github.com/RGerboth">
+            <img src="assets/images/if_github_square_black_107109.png" alt="Robert Gerboth Github Profile" style="width:50px;height:50px;border:0;">
+          </a>
+          <a class="socialIcon" href="http://www.linkedin.com/in/Robert-Gerboth">
+            <img src="assets/images/if_linkedin_square_color_107091.png" alt="Robert Gerboth LinkedIn Profile" style="width:50px;height:50px;border:0;">
+          </a>
+          <a class="socialIcon" href="https://stackoverflow.com/users/8967940/rgerboth?tab=profile">
+            <img src="assets/images/if_overflow_334695.png" alt="Robert Gerboth Stck Overflow Profile" style="width:45px; height:45px; border: 2px solid white">
+          </a>
+        </div>
+    </div> 
+    <!-- </div> -->
+  <!-- </div> -->
   <footer class="clearfix">
-    Copyright 2018 Robert P Gerboth
+    &copy; Copyright 2018 Robert P Gerboth
   </footer>
 
 </body>
