@@ -24,8 +24,8 @@ body {
 #navbar {
 	background: lightgray;
 	height: 75px;
-	width: 670px;
-	float:left;
+	width: 960px;
+	/*float:left;*/
 	padding-top: 20px;
 }
 
@@ -51,10 +51,10 @@ a {
 
 #mainSection {
 	width: 500px;
-	padding-top: 50px;	
+	/*padding-top: 50px;	*/
 	margin-left: 100px;
-
 	border: 10px;
+	padding-top: 50px;
 }
 
 #aboutMe {
@@ -71,7 +71,9 @@ a {
 	height: 150px;
 }
 
-
+#inputForm {
+	padding-left: 50px;
+}
 
 #profilePic {
 	float:left;
@@ -87,13 +89,14 @@ a {
 	float:left;
 	background: #888;
 	color:white;
-	width: 33.33%;
+	width: 500px;
 }
 
 #contact {
 	background: #666;
 	color: white;
-	width: 33.33%;
+	width: 500px;
+	padding-top: 50px;
 }
 
 aside {
